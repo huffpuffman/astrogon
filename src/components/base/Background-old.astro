@@ -1,50 +1,43 @@
 ---
 // Twinkling Star Background 
-const numStars = 800;
+const numStars = 1600;
 const stars = Array.from({ length: numStars }).map(() => ({
   left: `${Math.random() * 100}%`,
   top: `${Math.random() * 100}%`,
-  size: `${Math.random() * 1}px`,
-  delay: `${200 * Math.random()}s`,
- //  hsl: `hsl(${Math.random() * 360}, 100%, 25%)`, // background: ${hsl}; 
+  size: `${Math.random() * 2 + 1}px`,
+  delay: `${7 * Math.random()}s`,
+  // hsl: `hsl(${Math.random() * 360}, 100%, 50%)`, // background: ${hsl}; 
 }));
 ---
-
 <div
-  class="fixed top-0 left-0 w-full h-full pointer-events-none overflow-hidden animate-sc"
+  class="fixed top-0 left-0 w-full h-full pointer-events-none overflow-hidden"
 >
   {
     stars.map(({ left, top, size, delay }) => (
       <div
-        class="absolute bg-none dark:bg-yellow-50 rounded-full animate-twinkle opacity-10" 
+        class="absolute bg-none dark:bg-yellow-50 rounded-full animate-twinkle"
         style={`
             left: ${left};
             top: ${top};
             width: ${size};
             height: ${size};
             animation-delay: ${delay};
-            
         `}
       />
     ))
   }
 </div>
 
-
-
 <!-- Gradient Cycle Background -->
-<!-- 
  <div
   class="gradient animate-cycleBg fixed top-0 left-0 w-full h-full -z-1 pointer-events-none overflow-hidden"
 />
 <style>
   .gradient {
-    background: linear-gradient(-45deg, #100010, #200050, #e2b902, #b36000);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
   }
 </style> 
--->
-
 
 <!-- Image Background -->
 <!-- <style>
@@ -57,9 +50,3 @@ const stars = Array.from({ length: numStars }).map(() => ({
     background-size: cover;
   }
 </style> -->
-
-
-<div 
-  class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(120%_120%_at_50%_10%,#000_40%,#215_100%)] animate-cycleBg ">
-</div>
-

@@ -121,9 +121,9 @@ module.exports = {
         fadeDown: "fadeInDown 1000ms both",
         fadeRight: "fadeInRight 1000ms both",
         fadeLeft: "fadeInLeft 1000ms both",
-        scale: "scaleOut 1000ms both",
+        scale: "scaleOut 10000ms both",
         // Star Background
-        twinkle: "twinkle 5s infinite ease-in-out",
+        twinkle: "twinkle 15s infinite ease-in-out",
         // Cycle Background
         cycleBg: "cycleBg 60s ease infinite"
       },
@@ -155,8 +155,8 @@ module.exports = {
         },
         // Star Background
         twinkle: {
-          "0%, 20%, 100%": { opacity: 1 },
-          "10%": { opacity: 0.25 },
+          "0%, 20%, 100%": { opacity: 0.50 },
+          "100%": { opacity: 0.10 },
         },
         // Cycle Background
         cycleBg: {

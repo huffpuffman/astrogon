@@ -20,22 +20,22 @@
         "light": "#bbb"
       },
       "bg": {
-        "primary": "#000",
-        "secondary": "#222",
-        "tertiary": "#222"
+        "primary": "#222",
+        "secondary": "#444",
+        "tertiary": "#444"
       },
-      "border": "#222"
+      "border": "#444"
     }
   },
   "fonts": {
     "font_family": {
-      "primary": "sans-serif",
-      "primary_type": "Open Sans",
-      "secondary": "sans-serif",
-      "secondary_type": "Open Sans"
+      "primary": "serif",
+      "primary_type": "serif",
+      "secondary": "Open Sans",
+      "secondary_type": "sans-serif"
     },
     "font_size": {
-      "base": "18",
+      "base": "16",
       "scale": "1.250"
     }
   }

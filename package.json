@@ -1,8 +1,8 @@
 {
-  "name": "Astrogon",
+  "name": "tylerhuffman.com",
   "version": "1.0.0",
-  "description": "Template.",
-  "author": "Jane Doe",
+  "description": "Homepage",
+  "author": "Tyler Huffman",
   "license": "MIT",
   "packageManager": "npm@10.8.2",
   "scripts": {

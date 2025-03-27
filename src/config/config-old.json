@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Tyler Huffman",
-    "base_url": "https://tylerhuffman.com",
+    "title": "Astrogon",
+    "base_url": "https://janedoe.com",
     "base_path": "/"
   },
 
@@ -9,6 +9,7 @@
     "sticky_header": true,
     "theme_switcher": true,
     "default_theme": "dark",
+     //"system",
     "search_enabled": true,
     "searchable_collections": ["about", "authors", "blog", "docs", "poetry", "recipes", "terms"],
     "blog_pagination": 4,
@@ -22,7 +23,7 @@
 
   "metadata": {
     "meta_author": "Tyler Huffman",
-    "meta_image": "@assets/tyler-headshot.jpeg",
+    "meta_image": "@assets/og-image.png",
     "meta_description": "Composer"
   }
 }

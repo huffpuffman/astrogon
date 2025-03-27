@@ -1,9 +1,9 @@
 ---
-image: "@assets/astrogon-star.svg"
-imageAlt: Astrogon logo
-title: Astrogon
-content: A rapidly-customizable template for a blog, documentation, and more.
-button:
-  label: See the Code
-  link: https://github.com/astrogon/astrogon
+image: "@assets/tyler-headshot.jpeg"
+imageAlt: Tyler
+title: Tyler Huffman
+content: Composer | Producer
+//button:
+//  label: See the Code
+//  link: https://tylerhuffman.com
 ---

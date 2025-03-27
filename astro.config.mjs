@@ -31,7 +31,7 @@ export default defineConfig({
     }], remarkMath],
     rehypePlugins: [[rehypeKatex, {}]],
     shikiConfig: {
-      theme: "dark-plus", // https://shiki.style/themes
+      theme: "aurora-x", // https://shiki.style/themes
     },
     extendDefaultPlugins: true
   },
