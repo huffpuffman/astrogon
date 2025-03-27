@@ -13,7 +13,7 @@ import remarkMath from "remark-math";
 // https://astro.build/config
 export default defineConfig({
   site: config.site.base_url,
-  base: config.site.base_path,
+  //base: config.site.base_path,
   trailingSlash: "ignore",
   prefetch: {
     prefetchAll: true
