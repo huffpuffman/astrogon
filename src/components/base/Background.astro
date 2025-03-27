@@ -11,7 +11,7 @@ const stars = Array.from({ length: numStars }).map(() => ({
 ---
 
 <div
-  class="fixed top-0 left-0 w-full h-full pointer-events-none overflow-hidden animate-sc"
+  class="fixed top-0 left-0 w-full h-full pointer-events-none overflow-hidden"
 >
   {
     stars.map(({ left, top, size, delay }) => (
@@ -60,6 +60,5 @@ const stars = Array.from({ length: numStars }).map(() => ({
 
 
 <div 
-  class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(120%_120%_at_50%_10%,#000_40%,#215_100%)] animate-cycleBg ">
+  class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(120%_120%_at_50%_10%,#000_40%,#215_100%)]">
 </div>
-
